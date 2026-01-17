@@ -84,6 +84,9 @@ What is root squashing?
 - So, `no_root_sqaush` must be avoided expect any specific scenario.
 - should not use`no_root_squash` unless you are aware of the consequences.
 
+
+**Example:**
+
 You can test no_root_squash in  as:
 
 on client as root user:
@@ -105,10 +108,10 @@ run:
 	/nfs_share/vi  /etc/password
 ```
 - and chnage UUID and GID to 0 and save file.
-
 - Logout  and relogging with same account ,you will see that none-priviliged user is now a root user.
-
 - If you try to do so with `root_squash` , it will not let you save file and make any changes.
+- above example may not work properly wityh NFS4 as `nfs4` not honours `SUID`even if set `nosuid` option with mount.
+- Ypu can test `no_root_squash` on any other file owned by `root`.
 
 
 
