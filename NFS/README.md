@@ -4,12 +4,12 @@ Network File System (NFS):
 - NFS is a protocol that allows you to share directories and files with others over a network.
 - It enables users to access files on remote systems as if they were local files. NFS is built into the Linux kernel, making it a powerful and widely available solution for file sharing on Linux systems.
 
-**#Setting Up NFS Server**
+**Setting Up NFS Server**
 ------
 
 To set up an NFS server, follow these steps:
 
-**1:Install NFS Server Package: **
+**1:Install NFS Server Package:**
 
 	  dnf install nfs-utils
 
