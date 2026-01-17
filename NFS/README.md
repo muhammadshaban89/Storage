@@ -27,7 +27,8 @@ To set up an NFS server, follow these steps:
 
 - Add the following line to share the directory with read-write permissions:
   
-  - vi /etc/exports  OR #vi /etc/exports.d/xyz.exports
+  * vi /etc/exports  **OR**
+  * vi /etc/exports.d/xyz.exports
 ```
 	 /media/nfs   192.168.1.0/24(rw,sync)
 ```
