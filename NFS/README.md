@@ -15,7 +15,7 @@ To set up an NFS server, follow these steps:
 
 **2:Enable and Start NFS Service:**
 
-	 systemctl enable --now nfs-server.
+	 systemctl enable --now nfs-server
    
 **3:Create a Directory to Share:** 
 
