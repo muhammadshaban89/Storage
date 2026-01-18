@@ -1,2 +1,3 @@
-# devops
-contains  Study material for DevOps
+# STORAGE
+
+**Study Guid to configure storage in RHEL*
