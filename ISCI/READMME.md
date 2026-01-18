@@ -452,7 +452,9 @@ Then partition/format/mount as usual.
 
 
 
+👉Follow my LinkdIn Profile: www.linkedin.com/in/muhammad-shaban-45577719a
 
+👉Youtube Channel: http://www.youtube.com/@engrm.shaban5099
 
 
 
