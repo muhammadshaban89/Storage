@@ -23,7 +23,8 @@ To set up an NFS server, follow these steps:
 
 **4:Configure NFS Exports:**
 
-- Edit the /etc/exports  or    /etc/exports.d/name.exports       (name.exports is naming format for exports .you can use any desirable name )file to specify the directories to share and the clients allowed to access them:
+- Edit the `/etc/exports`  OR
+- `/etc/exports.d/name.exports`   (name.exports is naming format for exports .you can use any desirable name )file to specify the directories to share and the clients allowed to access them:
 
 - Add the following line to share the directory with read-write permissions:
   
