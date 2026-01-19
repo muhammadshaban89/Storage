@@ -10,7 +10,8 @@
 **2: Install packages.**
 - 
   * On Target:
-  * 
+  * Package: targetcli
+    - Provides the targetcli shell to configure LIO (Linux I/O Target), the in-kernel iSCSI target framework
 ```bash
 yum install targetcli
 ```
