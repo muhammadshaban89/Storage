@@ -16,7 +16,7 @@ yum install targetcli
 ```
   * On Initiator:
 ```bash
-install iscsi-initiator-utils
+yum install iscsi-initiator-utils
 ```
 **3: Enter targetcli shell.**
 ```bash
