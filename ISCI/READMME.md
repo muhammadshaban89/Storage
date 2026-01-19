@@ -56,7 +56,7 @@ sudo dnf install iscsi-initiator-utils
 Let’s assume:
 
 - **Target (server) IP:** `192.168.10.10`
-- You’ll create a **file-backed LUN** (good for labs).
+-  create a **file-backed LUN** 
 
 ### 4.1 Install and enable target services
 
