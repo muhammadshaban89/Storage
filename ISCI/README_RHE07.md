@@ -19,6 +19,8 @@ yum install targetcli
 ```bash
 yum install iscsi-initiator-utils
 ```
+* Provides iscsiadm, iscsid, and related tools to discover and log in to iSCSI targets.
+  
 **3: Enter targetcli shell.**
 ```bash
 targetcli
