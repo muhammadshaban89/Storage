@@ -73,7 +73,7 @@ sudo systemctl enable --now target.service
 
 **Note**
 
-*If you want to you a block storage as backing storage follow "section-2" in same document.*
+*If you want to use a block storage as backing storage follow "section-2" in same document.*
 
 Example: create a 10 GB file to act as a virtual disk.
 
